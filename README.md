@@ -55,19 +55,19 @@ Ekran Görüntüleri
 
 
 ### 1.
-https://github.com/mehmetgorer/CleanBlog/blob/main/CleanBlogSS/CBS1.png
+!https://github.com/mehmetgorer/CleanBlog/blob/main/CleanBlogSS/CBS1.png
 
 ### 2. 
-https://github.com/mehmetgorer/CleanBlog/blob/main/CleanBlogSS/CBS2.png
+!https://github.com/mehmetgorer/CleanBlog/blob/main/CleanBlogSS/CBS2.png
 
 ### 3. 
-https://github.com/mehmetgorer/CleanBlog/blob/main/CleanBlogSS/CBS3.png
+!https://github.com/mehmetgorer/CleanBlog/blob/main/CleanBlogSS/CBS3.png
 
 ### 4. 
-https://github.com/mehmetgorer/CleanBlog/blob/main/CleanBlogSS/CBS4.png
+!https://github.com/mehmetgorer/CleanBlog/blob/main/CleanBlogSS/CBS4.png
 
 ### 5. 
-https://github.com/mehmetgorer/CleanBlog/blob/main/CleanBlogSS/CBS5.png
+!https://github.com/mehmetgorer/CleanBlog/blob/main/CleanBlogSS/CBS5.png
 
 
 
