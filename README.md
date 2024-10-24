@@ -54,7 +54,22 @@ Etiketleme Sistemi: Yazıları daha iyi organize edebilmek için etiketlerle kat
 Ekran Görüntüleri
 
 
-1111111111111111
+### 1.
+https://github.com/mehmetgorer/CleanBlog/blob/main/CleanBlogSS/CBS1.png
+
+### 2. 
+https://github.com/mehmetgorer/CleanBlog/blob/main/CleanBlogSS/CBS2.png
+
+### 3. 
+https://github.com/mehmetgorer/CleanBlog/blob/main/CleanBlogSS/CBS3.png
+
+### 4. 
+https://github.com/mehmetgorer/CleanBlog/blob/main/CleanBlogSS/CBS4.png
+
+### 5. 
+https://github.com/mehmetgorer/CleanBlog/blob/main/CleanBlogSS/CBS5.png
+
+
 
 Clean Blog
 Clean Blog is a simple and dynamic blog platform where users can create, read, update, and delete blog posts. The project is built using Node.js and Express for the backend and utilizes the EJS (Embedded JavaScript) template engine for rendering dynamic web pages.
