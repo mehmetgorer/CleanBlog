@@ -1,4 +1,4 @@
-#Clean Blog
+Clean Blog
 
 Clean Blog, kullanıcıların blog yazıları oluşturabileceği, okuyabileceği, güncelleyebileceği ve silebileceği basit ve dinamik bir blog platformudur. Proje, arka uç için Node.js ve Express kullanılarak geliştirilmiştir ve dinamik web sayfalarını render etmek için EJS (Embedded JavaScript) şablon motoru kullanılmıştır.
 
