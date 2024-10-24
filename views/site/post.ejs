@@ -1,47 +1,52 @@
 <%- include('../partials/_header.ejs') %>
 
-  <body>
+<body>
 
-    <%- include('../partials/_navbar.ejs') %>
+  <%- include('../partials/_navbar.ejs') %>
 
-
-      <!-- Page Header -->
-      <header class="masthead" style="background-image: url('/img/post-bg.jpg')">
-        <div class="overlay"></div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 col-md-10 mx-auto">
-              <div class="post-heading">
-                <h1><%- posts[0].title  %> </h1>
-                <h2 class="subheading">LİNKLE2 </h2>
-                <span class="meta">Posted by
-                  <a href="#">Mehmet Görer</a>
-                  <%- posts[0].dateCreated  %> </span>
-              </div>
-            </div>
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('/img/post-bg.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1><%= posts[0].title %></h1>
+            <h2 class="subheading"><%= posts[0].subtitle || 'Subtitle Here' %></h2>
+            <span class="meta">Posted by
+              <a href="#">Mehmet Görer</a>
+              on <%= new Date(posts[0].dateCreated).toLocaleDateString() %>
+            </span>
           </div>
         </div>
-      </header>
+      </div>
+    </div>
+  </header>
 
-      <!-- Post Content -->
-      <article>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 col-md-10 mx-auto">
-              <p><%- posts[0].detail  %> </p>
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p><%= posts[0].detail %></p>
+          
+          <!-- Düzenle ve Silme İşlemleri -->
+          <div class="post-actions">
+            <a href="/posts/<%= posts[0]._id %>/edit" class="btn btn-warning btn-sm">Edit Post</a>
 
-             
-              
-              </p>
-            </div>
+            <form action="/posts/<%= posts[0]._id %>?_method=DELETE" method="POST" style="display: inline;">
+              <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure you want to delete this post?');">Delete Post</button>
+            </form>
           </div>
         </div>
-      </article>
+      </div>
+    </div>
+  </article>
 
-      <hr>
+  <hr>
 
-      <% include('../partials/_footer.ejs') %> 
+  <%- include('../partials/_footer.ejs') %> 
 
-  </body>
+</body>
 
-  </html>
+</html>
